@@ -6,7 +6,7 @@ metadata:
     name: frontend
   name: frontend
 spec:
-  host: todo.apps.mgmt.nta.no
+  host: todo.apps.mgmt.icora.nta.no
   path: "/todo"
   to:
     kind: Service
