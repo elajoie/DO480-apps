@@ -5,3 +5,6 @@ bases:
   - ../../base
 
 nameSuffix: -core
+
+resources:
+- route.yaml
