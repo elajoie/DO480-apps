@@ -1,0 +1,15 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: todonodejs
+    name: frontend
+  name: frontend
+spec:
+  host: todo.apps.mgmt.nta.no
+  path: "/todo"
+  to:
+    kind: Service
+    name: frontend-core
+    weight: 100
+  wildcardPolicy: None
