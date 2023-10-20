@@ -1,0 +1,11 @@
+kind: Kustomization
+
+bases:
+- ../../base
+
+resources:
+- deployment.yaml
+- deployment-frontend.yaml
+- route.yaml
+- service-frontend.yaml
+- service.yaml
